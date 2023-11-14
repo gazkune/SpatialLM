@@ -1,7 +1,7 @@
 # SpatialLM: Grounding Spatial Relations in Text-Only Language Models
 This is the official repository of SpatialLM, an approach to ground spatial relation in text-only Language Models. You can check all the details in the paper [TODO: add link].
 
-![System Diagram](assets/system-diagram.pdf)
+![System Diagram](assets/system-diagram.jpg)
 
 ## Installation
 You can install all the dependencies using the `requirements.txt` file provided in the repository:
