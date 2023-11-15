@@ -21,7 +21,7 @@ from transformers import BertTokenizer, BertForSequenceClassification
 from transformers import DebertaV2Tokenizer, DebertaV2ForSequenceClassification # NOTE: to be tested
 
 
-from datasets import vqavinvl_dataset_fromfile, clevr_dataset_fromfile, vsr_dataset_fromfile
+from datasets import vsr_dataset_fromfile
 from models import models
 
 
