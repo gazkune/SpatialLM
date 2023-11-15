@@ -274,7 +274,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
-        "--model", type=str, default="spatialbert", choices=["spatialbert", "bert", "bert-large"],
+        "--model", type=str, default="bert", choices=["spatialbert", "bert", "bert-large"],
         help="Model type to be fine-tuned."
     )
     parser.add_argument(
