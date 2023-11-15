@@ -10,6 +10,11 @@ You can install all the dependencies using the `requirements.txt` file provided 
 pip install -r requirements.txt
 ```
 ## Usage
+For the spatial pretraining on COCO, you need to create a validation file (we provide ours in the repository) (TBC):
+```python
+python spatialpretrain.py --model bert --location_encoding token --batch_size 28 --accumulate_grad_batches 4 --precision 16 --run_name bert_spatialpt_vinvl_withlocation --max_steps 20000 --spatial_val_f
+ile datasets/validation-vinvl-alldistractors-noattr.json
+```
 
 ## Cite
 If you find this repository useful, please consider citing:
